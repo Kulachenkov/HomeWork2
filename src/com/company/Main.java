@@ -68,6 +68,7 @@ public class Main {
 
         /*Задание 5*/
         System.out.println("*********Задание 5**********");
+
         double salaryMasha = 67760;
         double salaryDenis = 83690;
         double salaryKristina = 76230;
