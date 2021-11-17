@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
         /*Задание 1*/
         int intNumber = 5;
         short shortNumber = 10;
