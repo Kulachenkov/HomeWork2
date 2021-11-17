@@ -33,7 +33,7 @@ public class Main {
         int bananaNumber = 5;
 
         int milkHundredMlWeight = 105;
-        int milkHundredMl = 2;
+        int milkVolume = 200;
 
         int iceCreamWeight = 100;
         int iceCreamNumber = 2;
@@ -42,7 +42,7 @@ public class Main {
         int eggNumber = 4;
 
         float breakfastWeight = (bananaWeight * bananaNumber) +
-                (milkHundredMlWeight * milkHundredMl) +
+                ((milkHundredMlWeight * milkVolume) / 100) +
                 (iceCreamWeight * iceCreamNumber) +
                 (eggWeight * eggNumber);
 
@@ -78,9 +78,9 @@ public class Main {
         double newDenisSalary = salaryDenis + salaryDenis * 0.1;
         double newKristinaSalary = salaryKristina + salaryKristina * 0.1;
 
-        double gapYearSalaryMasha = (newMashaSalary * 12) - (salaryMasha * 12);
-        double gapYearSalaryDenis = (newDenisSalary * 12) - (salaryDenis * 12);
-        double gapYearSalaryKristina = (newKristinaSalary * 12) - (salaryKristina * 12);
+        double gapYearSalaryMasha = (newMashaSalary - salaryMasha) * 12;
+        double gapYearSalaryDenis = (newDenisSalary - salaryDenis) * 12;
+        double gapYearSalaryKristina = (newKristinaSalary - salaryKristina) * 12;
 
         System.out.println("Маша теперь получает " + newMashaSalary
                 + " рублей. Годовой доход вырос на " + gapYearSalaryMasha + " рублей." );
