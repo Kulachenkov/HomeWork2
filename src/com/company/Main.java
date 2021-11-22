@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
         /*Задание 1*/
         int intNumber = 5;
         short shortNumber = 10;
@@ -88,11 +89,49 @@ public class Main {
                 + " рублей. Годовой доход вырос на " + gapYearSalaryDenis + " рублей." );
         System.out.println("Кристина теперь получает " + newKristinaSalary
                 + " рублей. Годовой доход вырос на " + gapYearSalaryKristina + " рублей." );
-
-
-
-
+        System.out.println(" ");
 
 
     }
+    
+    public static void taskSix(){
+        /*Задание 6*/
+        System.out.println("*********Задание 6**********");
+
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+        int result = 0;
+        result = a*(b+(c-d*e));
+        result = - result;
+
+        System.out.println(result);
+
+    }
+    
+    public static void taskSeven(){
+        /*Задание 7*/
+        System.out.println("*********Задание 7**********");
+
+        int a = 5;
+        int b = 7;
+
+        a = a*b;
+        b = a / b ;
+        a = a / b ;
+        System.out.println("a = " + a + " b = " + b);
+
+        
+    }
+
+    public static void taskEight(){
+        int a = 123;
+        int b = 0;
+        b = (a/10)%10;
+
+        System.out.println(b);
+    }
+
 }
